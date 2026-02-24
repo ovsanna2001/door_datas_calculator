@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Չափսերի հաշվիչ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Չափսերի հաշվիչ</h1>
+        
+        <div class="input-group">
+            <label for="width">Լայնություն</label>
+            <input type="number" id="width" placeholder="Մուտքագրեք լայնությունը" step="0.1" inputmode="decimal">
+            <span class="error" id="widthError">Խնդրում ենք մուտքագրել ճիշտ արժեք</span>
+        </div>
+
+        <div class="input-group">
+            <label for="height">Բարձրություն</label>
+            <input type="number" id="height" placeholder="Մուտքագրեք բարձրությունը" step="0.1" inputmode="decimal">
+            <span class="error" id="heightError">Խնդրում ենք մուտքագրել ճիշտ արժեք</span>
+        </div>
+
+        <button onclick="calculate()">Հաշվել</button>
+
+        <div class="results" id="results">
+            <!-- Վիզուալ ներկայացում -->
+            <div class="visual-container">
+                <div class="outer-box" id="outerBox">
+                    <div class="outer-label" id="outerLabel"></div>
+                    <div class="inner-box1">
+                            <div class="inner-label-width1" id="innerLabelWidth1"></div>
+                            <div class="inner-label-height1" id="innerLabelHeight1"></div>
+                            <div class="inner-box" id="innerBox">
+                                <div class="inner-label-width" id="innerLabelWidth"></div>
+                                <div class="inner-label-height" id="innerLabelHeight"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
