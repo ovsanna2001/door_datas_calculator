@@ -4,7 +4,9 @@ const FILES = [
   './index.html',
   './style.css',
   './app.js',
-  './manifest.json'
+  './manifest.json',
+  './icons/192x192.png',
+  './icons/512x512.png'
 ];
 
 self.addEventListener('install', e => {
