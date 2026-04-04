@@ -7,7 +7,7 @@
     "theme_color": "#185FA5",
     "icons": [
       {
-        "src": "icon-192.png",
+        "src": "icons/calc.png",
         "sizes": "192x192",
         "type": "image/png"
       },
