@@ -1,4 +1,4 @@
-const CACHE = 'calc-v1';
+const CACHE = 'calc-v';
 const FILES = [
   './',
   './index.html',
