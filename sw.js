@@ -1,4 +1,4 @@
-const CACHE_NAME = 'site-cache-v1';
+const CACHE_NAME = 'site-cache-v2';
 
 // Այստեղ ներառված են ձեր բոլոր 5 ֆայլերը և manifest-ը
 const URLS_TO_CACHE = [
